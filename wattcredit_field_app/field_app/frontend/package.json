@@ -1,0 +1,10 @@
+{
+  "name": "wattcredit-field-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "tsc -p . && node test/e2e.mjs"
+  },
+  "devDependencies": { "typescript": "^5.6.0" }
+}
